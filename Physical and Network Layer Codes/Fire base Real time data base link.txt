@@ -1,0 +1,1 @@
+https://smart-energie-irm2-4-default-rtdb.firebaseio.com/
