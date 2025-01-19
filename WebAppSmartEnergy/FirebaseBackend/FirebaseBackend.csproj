@@ -1,0 +1,100 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FirebaseAdmin" Version="3.1.0" />
+    <PackageReference Include="FirebaseDatabase.net" Version="4.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="9.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="7.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" Version="7.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI" Version="7.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\.DS_Store" />
+    <None Include="wwwroot\assets\css\.DS_Store" />
+    <None Include="wwwroot\assets\fonts\.DS_Store" />
+    <None Include="wwwroot\assets\img\.DS_Store" />
+    <None Include="wwwroot\assets\img\about\.DS_Store" />
+    <None Include="wwwroot\assets\img\blog\.DS_Store" />
+    <None Include="wwwroot\assets\img\clients\.DS_Store" />
+    <None Include="wwwroot\assets\img\team\.DS_Store" />
+    <None Include="wwwroot\assets\img\testimonial\.DS_Store" />
+    <None Include="wwwroot\assets\js\.DS_Store" />
+    <None Include="wwwroot\assets\css\animate.css" />
+    <None Include="wwwroot\assets\css\bootstrap.min.css" />
+    <None Include="wwwroot\assets\css\magnific-popup.css" />
+    <None Include="wwwroot\assets\css\main.css" />
+    <None Include="wwwroot\assets\css\nivo-lightbox.css" />
+    <None Include="wwwroot\assets\css\owl.carousel.min.css" />
+    <None Include="wwwroot\assets\css\owl.theme.css" />
+    <None Include="wwwroot\assets\css\responsive.css" />
+    <None Include="wwwroot\assets\css\slicknav.css" />
+    <None Include="wwwroot\assets\fonts\line-icons.css" />
+    <None Include="wwwroot\assets\fonts\LineIcons.eot" />
+    <None Include="wwwroot\assets\fonts\LineIcons.svg" />
+    <None Include="wwwroot\assets\fonts\LineIcons.ttf" />
+    <None Include="wwwroot\assets\fonts\LineIcons.woff" />
+    <None Include="wwwroot\assets\img\about\img-1.jpg" />
+    <None Include="wwwroot\assets\img\bg-video.jpg" />
+    <None Include="wwwroot\assets\img\blog\1.jpg" />
+    <None Include="wwwroot\assets\img\blog\2.jpg" />
+    <None Include="wwwroot\assets\img\blog\3.jpg" />
+    <None Include="wwwroot\assets\img\blog\avater-1.jpg" />
+    <None Include="wwwroot\assets\img\blog\avater-2.jpg" />
+    <None Include="wwwroot\assets\img\blog\blog-1-big.jpg" />
+    <None Include="wwwroot\assets\img\blog\img1.jpg" />
+    <None Include="wwwroot\assets\img\blog\img2.jpg" />
+    <None Include="wwwroot\assets\img\blog\img3.jpg" />
+    <None Include="wwwroot\assets\img\clients\img1.png" />
+    <None Include="wwwroot\assets\img\clients\img2.png" />
+    <None Include="wwwroot\assets\img\clients\img3.png" />
+    <None Include="wwwroot\assets\img\clients\img4.png" />
+    <None Include="wwwroot\assets\img\count-bg.jpg" />
+    <None Include="wwwroot\assets\img\hero-1.png" />
+    <None Include="wwwroot\assets\img\hero-bg.png" />
+    <None Include="wwwroot\assets\img\logo.png" />
+    <None Include="wwwroot\assets\img\logo.psd" />
+    <None Include="wwwroot\assets\img\page-header-bg.jpg" />
+    <None Include="wwwroot\assets\img\team\team-01.png" />
+    <None Include="wwwroot\assets\img\team\team-02.png" />
+    <None Include="wwwroot\assets\img\team\team-03.png" />
+    <None Include="wwwroot\assets\img\team\team-04.png" />
+    <None Include="wwwroot\assets\img\testimonial.jpg" />
+    <None Include="wwwroot\assets\img\testimonial\img1.jpg" />
+    <None Include="wwwroot\assets\img\testimonial\img2.jpg" />
+    <None Include="wwwroot\assets\img\testimonial\img3.jpg" />
+    <None Include="wwwroot\assets\img\testimonial\img4.png" />
+    <None Include="wwwroot\assets\img\testimonial\img5.png" />
+    <None Include="wwwroot\assets\img\testimonial\img6.png" />
+    <None Include="wwwroot\assets\js\bootstrap.min.js" />
+    <None Include="wwwroot\assets\js\jquery-min.js" />
+    <None Include="wwwroot\assets\js\jquery.counterup.min.js" />
+    <None Include="wwwroot\assets\js\jquery.easing.min.js" />
+    <None Include="wwwroot\assets\js\jquery.nav.js" />
+    <None Include="wwwroot\assets\js\jquery.slicknav.js" />
+    <None Include="wwwroot\assets\js\main.js" />
+    <None Include="wwwroot\assets\js\owl.carousel.min.js" />
+    <None Include="wwwroot\assets\js\popper.min.js" />
+    <None Include="wwwroot\assets\js\scrolling-nav.js" />
+    <None Include="wwwroot\assets\js\waypoints.min.js" />
+    <None Include="wwwroot\assets\js\wow.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="testiot-b8148-firebase-adminsdk-bxk6k-1e65fe000f.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
