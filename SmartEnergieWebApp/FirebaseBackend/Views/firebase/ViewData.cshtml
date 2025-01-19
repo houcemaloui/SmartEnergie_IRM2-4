@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Affichage des données Firebase";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table id="firebase-data" class="table table-striped">
+    <thead>
+        <tr>
+            <th>Current</th>
+            <th>Voltage</th>
+            <th>kWh</th>
+            <th>Temps</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Les données seront ajoutées ici via JavaScript -->
+    </tbody>
+</table>
+
+<script>
+    async function fetchData() {
+        try {
+            const response = await fetch('/api/firebase/data');
+            const data = await response.json();
+            const tbody = document.getElementById('firebase-data').querySelector('tbody');
+
+            data.entries.forEach(entry => {
+                const row = `<tr>
+                    <td>${entry.Current}</td>
+                    <td>${entry.Voltage}</td>
+                    <td>${entry.kWh}</td>
+                    <td>${entry.Temps}</td>
+                </tr>`;
+                tbody.innerHTML += row;
+            });
+        } catch (error) {
+            console.error('Erreur lors de la récupération des données :', error);
+        }
+    }
+
+    fetchData();
+</script>
