@@ -76,7 +76,7 @@ class _HomeScreenState extends State<HomeScreen> {
   void _showVoltageAlert(dynamic voltage) {
     showModalBottomSheet(
       context: context,
-      isDismissible: false,
+      isDismissible: false, // Force l'utilisateur à attendre
       builder: (context) {
         Future.delayed(const Duration(seconds: 3), () {
           Navigator.pop(context); // Fermer après 3 secondes
@@ -152,60 +152,31 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  void _showHelloModal() {
-    showDialog(
-      context: context,
-      builder: (context) {
-        Future.delayed(const Duration(seconds: 3), () {
-          Navigator.pop(context); // Ferme le modal automatiquement
-        });
-        return AlertDialog(
-          backgroundColor: Colors.red[400],
-          title: const Text(
-            "Alert",
-            style: TextStyle(
-              color: Colors.white,
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
-            ),
-          ),
-          content: const Text(
-            "le voltage dépasse la limite autorisée !.",
-            style: TextStyle(color: Colors.white),
-          ),
-        );
-      },
-    );
-  }
-
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: _showHelloModal, // Affiche le modal rouge lorsqu'on clique
-      child: Scaffold(
-        appBar: AppBar(
-          title: const Text('Données Firebase'),
-          actions: [
-            IconButton(
-              icon: const Icon(Icons.settings),
-              onPressed: _openSettingsDialog,
-              tooltip: "Paramètres",
-            ),
-          ],
-        ),
-        body: _isLoading
-            ? const Center(child: CircularProgressIndicator())
-            : _errorMessage != null
-            ? Center(
-          child: Text(
-            'Erreur : $_errorMessage',
-            style: const TextStyle(color: Colors.red),
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Données Firebase'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.settings),
+            onPressed: _openSettingsDialog,
+            tooltip: "Paramètres",
           ),
-        )
-            : _data == null
-            ? const Center(child: Text('Aucune donnée disponible.'))
-            : _buildDataList(),
+        ],
       ),
+      body: _isLoading
+          ? const Center(child: CircularProgressIndicator())
+          : _errorMessage != null
+          ? Center(
+        child: Text(
+          'Erreur : $_errorMessage',
+          style: const TextStyle(color: Colors.red),
+        ),
+      )
+          : _data == null
+          ? const Center(child: Text('Aucune donnée disponible.'))
+          : _buildDataList(),
     );
   }
 
@@ -257,3 +228,4 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+
