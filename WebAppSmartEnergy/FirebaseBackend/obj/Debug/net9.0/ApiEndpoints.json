@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "FirebaseBackend.Controllers.FirebaseController",
+    "Method": "GetData",
+    "RelativePath": "api/Firebase/data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FirebaseBackend.Controllers.FirebaseController",
+    "Method": "SendNotification",
+    "RelativePath": "api/Firebase/notify",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "FirebaseBackend.Controllers.NotificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FirebaseBackend.Controllers.FirebaseController",
+    "Method": "ViewData",
+    "RelativePath": "api/Firebase/view-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FirebaseBackend.Controllers.HomeController",
+    "Method": "GetMobileData",
+    "RelativePath": "api/Home/MobileData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

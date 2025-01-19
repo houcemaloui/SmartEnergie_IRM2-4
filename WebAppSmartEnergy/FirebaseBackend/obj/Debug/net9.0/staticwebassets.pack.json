@@ -1,0 +1,173 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\css\\nivo-lightbox.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nivo-lightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\css\\owl.theme.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.theme.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\css\\slicknav.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slicknav.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\fonts\\LineIcons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.eot"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\fonts\\LineIcons.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.svg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\fonts\\LineIcons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\fonts\\LineIcons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\LineIcons.woff"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\fonts\\line-icons.css",
+      "PackagePath": "staticwebassets\\assets\\fonts\\line-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\img\\about\\img-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\img-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\img\\bg-video.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg-video.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\img\\count-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\count-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\img\\hero-1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-1.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\img\\hero-bg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\hero-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\img\\logo.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\img\\page-header-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\page-header-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\img\\team\\engineer-01.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\engineer-01.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\img\\team\\engineer-02.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\engineer-02.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\img\\team\\engineer-03.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\team\\engineer-03.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\img\\testimonial.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\testimonial.jpg"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\js\\jquery-min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\js\\jquery.easing.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\js\\jquery.nav.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.nav.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\js\\scrolling-nav.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scrolling-nav.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\DELL\\source\\repos\\FirebaseBackend\\FirebaseBackend\\wwwroot\\assets\\js\\wow.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wow.js"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.FirebaseBackend.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.FirebaseBackend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.FirebaseBackend.props",
+      "PackagePath": "build\\FirebaseBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.FirebaseBackend.props",
+      "PackagePath": "buildMultiTargeting\\FirebaseBackend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.FirebaseBackend.props",
+      "PackagePath": "buildTransitive\\FirebaseBackend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
