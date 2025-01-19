@@ -1,0 +1,35 @@
+FirebaseBackend
+This project uses Firebase for real-time database management and other features. For security reasons, the required Firebase configuration files are not included in the repository. Follow the steps below to properly configure and integrate Firebase into the application.
+
+
+Step 1: Rename Configuration Files
+To ensure these files are not accidentally tracked by Git, they are saved in the repository with the .txt extension. Follow these steps to restore them:
+
+Locate the files in the project directory:
+
+FirebaseBackend/smart-energie-irm2-4-firebase-adminsdk-pox97-f18f7008a6.txt
+Rename the .txt extensions back to .json:
+
+Example:
+smart-energie-irm2-4-firebase-adminsdk-pox97-f18f7008a6.txt → smart-energie-irm2-4-firebase-adminsdk-pox97-f18f7008a6.json
+Step 2: Place the Files in the Correct Directories
+Ensure the files are placed in the correct directories so the application can access them properly:
+
+Files should be located in:
+FirebaseBackend/
+Step 3: Configure Firebase in the Application
+The project uses these files to initialize Firebase. Ensure the renamed files are properly referenced in the code. For example:
+
+
+FirebaseApp.Create(new AppOptions
+{
+    Credential = GoogleCredential.FromFile("smart-energie-irm2-4-firebase-adminsdk-pox97-f18f7008a6.json")
+});
+
+
+Step 4: Verify the Setup
+Run the project and check if it operates as expected.
+If any Firebase-related errors occur, ensure the .json files are correctly renamed and placed in the appropriate directories.
+Important: Do Not Share .json Files Publicly
+Firebase configuration files contain sensitive keys. Never share them publicly, and ensure your Git repository is secure. Use a .gitignore file to prevent these files from being accidentally committed to the repository.
+
